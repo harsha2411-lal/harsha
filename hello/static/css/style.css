@@ -1,0 +1,33 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+fieldset.harsha {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 350px;
+  margin: 40px auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+label.lali {
+  font-weight: bold;
+}
+input,
+button {
+  margin: 8px 0;
+  padding: 8px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+video {
+  display: block;
+  margin: 40px auto;
+  border: 2px solid #333;
+  border-radius: 8px;
+}
+p {
+  text-align: center;
+  color: red;
+}
