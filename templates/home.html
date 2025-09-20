@@ -12,7 +12,7 @@
             {% csrf_token %}
             <label class="lali">Enter your name:</label>
             <input type="text" name="name" required><br>
-            <label class="lali">Enter special date:</label>
+            <label class="lali">Enter special date: If you Know you Know...!</label>
             <input type="date" name="date" required><br>
             <button type="submit">Submit</button>
         </form>
@@ -20,7 +20,7 @@
     {% else %}
         <h2>Welcome, Lalitha!</h2>
         <video width="640" height="360" controls>
-            <source src="https://firebasestorage.googleapis.com/v0/b/happy-14c84.appspot.com/o/lv_0_20250919215911.mp4?alt=media&token=97030a4b-53d4-47b2-aca7-653743f26fee" type="video/mp4">
+            <source src="https://firebasestorage.googleapis.com/v0/b/happy-14c84.firebasestorage.app/o/lv_0_20250919215911.mp4?alt=media&token=97030a4b-53d4-47b2-aca7-653743f26fee" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     {% endif %}
